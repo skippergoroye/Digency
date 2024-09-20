@@ -75,6 +75,7 @@ body {
 
 
 body::-webkit-scrollbar {
+  display: none;
     overflow: scroll;
 }
 
@@ -85,7 +86,8 @@ a {
 }
 
 h1, h2 {
-    color: var(--heading-color)
+    color: var(--heading-color);
+    font-size: 2rem;
 }
 
 
@@ -95,9 +97,9 @@ section {
 }
 
 .container {
-    padding: 0px 80px;
-    width: 1440px;
-    margin: auto
+  width: 1140px;
+  padding: 0px 16px;
+  margin: auto
 }
 
 
@@ -105,4 +107,11 @@ section {
   color: var(--small-text-color);
   line-height: 30px;
   font-size: .9rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin-bottom: 20px;
 }

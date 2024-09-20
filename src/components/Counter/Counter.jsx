@@ -5,7 +5,7 @@ import { counterData } from "../../constants";
 const Counter = () => {
   return (
     <section>
-      <div className="container">
+      <div className="container" >
         <div className="counter__wrapper">
           {counterData.map((item, index) => (
             <div key={index} className="counter__item">

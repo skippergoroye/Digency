@@ -1,6 +1,6 @@
 import React from "react"
 import "./App.css"
-import { Header, Hero, Counter } from "./components"
+import { Header, Hero, Counter, Services, About } from "./components"
 
 
  
@@ -14,6 +14,8 @@ function App() {
     <Header />
     <Hero />
     <Counter />
+    <Services />
+    <About />
     </>
   )
 }

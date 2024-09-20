@@ -6,13 +6,13 @@
 
 .hero__content,
 .hero__img {
-  width: 50%; /* Each will take up 50% of the width */
-  box-sizing: border-box; /* Ensure padding and borders are included in the width and height calculations */
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .hero__content {
   padding-top: 40px;
-  padding-right: 20px; /* Added padding to create some space between text and image */
+  padding-right: 20px; 
 }
 
 .hero__content h2 {
@@ -56,6 +56,6 @@
 }
 
 .hero__img img {
-  width: 100%; /* Ensures the image covers the entire width of its container */
-  height: auto; /* Maintains the aspect ratio of the image */
+  width: 100%;
+  height: auto;
 }
